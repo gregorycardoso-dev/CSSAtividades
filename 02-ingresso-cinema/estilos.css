@@ -1,0 +1,28 @@
+/* ATIVIDADE 02 — estilize o ingresso usando Box Model. */
+html{
+    background-color:black;
+    color: white;
+}
+#topo{
+    background-color: black;
+    color: white;
+}
+.ingresso{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    width: 275px;
+    height: 320px;
+    border: 5px solid white;
+    padding: 0px;
+    margin:20px;
+    gap: 10px;
+    margin: 6px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.detalhes{
+   background-color: grey;
+   padding: 11px;
+}

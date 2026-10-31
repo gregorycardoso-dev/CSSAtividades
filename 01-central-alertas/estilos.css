@@ -1,0 +1,129 @@
+/* ATIVIDADE 01 — escreva aqui o CSS da Central de Avisos. */
+*,
+*::before *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p{
+    margin-top: 2px;
+
+html {
+    background: linear-gradient(to right, white, black);
+    scroll-behavior: smooth;
+
+}
+}
+
+header {
+    background-color: aliceblue;
+    color:black;
+    padding: 10px 10 40 40;
+    
+}
+
+#topo h1 {
+
+    color: whitesmoke;
+    background: linear-gradient(to left, red, blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.aviso h3 {
+    color: darkblue;
+    font-style: italic;
+}
+
+.aviso.aviso-urgente {
+    color: red;
+    font-weight: bold;
+}
+
+.aviso.aviso-concluido {
+    color: white;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    color: greenyellow;
+    background-color: green;
+    border: 2px;
+    border-radius: 3px;
+   
+}
+
+.aviso {
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 67px rgba(10, 0, 60, 0.08);
+    padding: 30px;
+    margin: 10px;
+    width: 500px;
+    max-width: 90%;
+    background-image: url('https://img.freepik.com/vetores-gratis/padrao-de-papel-de-parede-de-textura-de-papel_53876-124091.jpg?w=2000');
+}
+
+#avisos {
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(to right, white, black);
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+a{
+    color: #6f6b24
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:700;
+}
+.menu a{
+    color: black;
+    padding: 40px;
+    font-size: 1.2rem;
+    
+}
+#contato a{
+    text-decoration: none;
+}
+ #botao{
+    
+    background-color: #6f6b24;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ #botao:hover{
+    background-color: #302018;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+#orientacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    color: purple;
+    text-transform: uppercase;
+
+}
